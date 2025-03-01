@@ -15,4 +15,19 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+	
+	<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version> <!-- ou a versão mais recente disponível -->
+            <configuration>
+                <source>17</source> <!-- ou 1.8, 11, dependendo da versão do Java que você está usando -->
+                <target>17</target>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
 </project>
